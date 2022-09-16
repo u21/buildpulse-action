@@ -64,7 +64,7 @@ esac
 
 BUILDPULSE_TEST_REPORTER_HOSTS=(
 	https://get.buildpulse.io
-	https://github.com/buildpulse/test-reporter/releases/latest/download
+	https://github.com/buildpulse/test-reporter/releases/download/v0.24.1
 )
 [ -n "${INPUT_CLI_HOST}" ] && BUILDPULSE_TEST_REPORTER_HOSTS=("${INPUT_CLI_HOST}" "${BUILDPULSE_TEST_REPORTER_HOSTS[@]}")
 
